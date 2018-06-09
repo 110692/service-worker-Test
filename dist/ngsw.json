@@ -17,7 +17,7 @@
         "/styles.a5b2a5c8940f19026461.css"
       ],
       "patterns": [
-        "\\/(?:.+\\/)?MaterialIcons-Regular[^\\/]*[^\\/]*"
+        "https:\\/\\/(?:.+\\/)?MaterialIcons-Regular\\.570eb83859dc23dd0eec\\.woff2"
       ]
     },
     {
