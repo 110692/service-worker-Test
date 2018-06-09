@@ -4,8 +4,8 @@
   "assetGroups": [
     {
       "name": "app",
-      "installMode": "prefetch",
-      "updateMode": "prefetch",
+      "installMode": "lazy",
+      "updateMode": "lazy",
       "urls": [
         "/0.8825f1de941ebf8dc153.js",
         "/1.2e45f5700353e4ea5e41.js",
@@ -16,7 +16,9 @@
         "/runtime.18b18dc9d79bed95a510.js",
         "/styles.a5b2a5c8940f19026461.css"
       ],
-      "patterns": []
+      "patterns": [
+        "\\/(?:.+\\/)?MaterialIcons-Regular[^\\/]*[^\\/]*"
+      ]
     },
     {
       "name": "assets",
